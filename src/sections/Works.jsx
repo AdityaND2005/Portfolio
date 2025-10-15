@@ -105,7 +105,7 @@ const Works = () => {
         withScrollTrigger={true}/>
         <div
 
-        classname="relative flex flex-col font-light"
+        className="relative flex flex-col font-light"
         onMouseMove={handleMouseMove}
         >
           {projects.map((project, index)=>(
